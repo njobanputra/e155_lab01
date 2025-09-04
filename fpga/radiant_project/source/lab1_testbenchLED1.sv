@@ -12,7 +12,7 @@ module testbench();
  logic [7:0] testvectors[10000:0];
  
 // instantiate device under test
-led0 dut(s, led);
+led1 dut(s, led);
 
 // generate clock
 always
